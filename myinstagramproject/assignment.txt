@@ -1,0 +1,18 @@
+WORKSHOP - Lecture 2
+
+
+We are going to make a simple responsive list of Instagram images and a list of who has liked these images by using the 
+Instagram REST API. We are going to use Bootstrap as responsive framework. The webapp we set up should be scaffolded using 
+Yeoman and the webapp generator.
+
+WORKSHOP GUIDE
+How to solve the Instagram REST api workshop exercise
+Either install all tools as described in the lecture or start with a project on your very own web server
+Log in or sign up for an Instagram user. Maybe you have to have the mobile app to register for a user
+Log in to Instagram developer console
+Set up a new client
+Use an endpoint that only needs client_id for this exercise. E.g: https://api.instagram.com/v1/media/popular?client_id=yourclientid
+Either use XMLHttpRequest in javascript or jQuery.get with jQuery to do the requests
+Bower pro tip to install jQuery in project (From project root path): 'bower install jquery --save'
+
+
