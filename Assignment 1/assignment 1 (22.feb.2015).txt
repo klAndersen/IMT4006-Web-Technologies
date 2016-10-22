@@ -1,0 +1,10 @@
+Geolocation API assigment
+
+
+The Geolocation API reached W3C recommendation status in 2013 and is one of many device APIs being standardized at the moment.
+
+http://www.w3.org/TR/geolocation-API/
+
+Write a report where you describe the interfaces that are available with the Geolocation API and provide your own implementation 
+examples to show how these interfaces can be used. Also discuss the limitations and challenges related to implementing the Geolocation 
+API in an application/device.

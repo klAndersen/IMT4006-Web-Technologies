@@ -1,0 +1,40 @@
+/** Styling for the html document to display both content and Google maps for GeoLocation API **/
+
+body {  
+	min-height: 0%;
+	min-width: 0%;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	font-family: Verdana, Arial, "Andale Mono", Trebuchet, "Sans serif";
+}
+
+/** map displayed to user **/
+#map_canvas {   
+	position: static;
+	height: 450px;
+	left: 5px;
+	right: 5px;
+}
+  
+header, section, aside, nav, main, article, figure {
+  /** for correct behaviour in older browsers **/
+	display: block; 
+}
+
+header, nav, section, article, footer {
+	margin:5px; 
+	padding:8px;
+}
+
+nav ul {
+	margin:0; 
+	padding:0;
+}
+
+nav ul li {
+	display:inline; 
+	margin:5px;
+}

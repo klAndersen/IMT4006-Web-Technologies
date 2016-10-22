@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment 1 - GeoLocation API</title>
+		<meta charset="utf-8">
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+		
+		<!-- styling for the document -->
+		<link rel="stylesheet" href="styles/map.css">
+		<!-- javascript for loading google map api -->
+		<script src="scripts/google_maps.js"></script>
+		<!-- javascript for geoLocation api -->
+		<script src="scripts/geolocation.js"></script>
+	</head>
+	<body>
+	<!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
+	  Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	<header>
+	<h1>Assignment 1 - GeoLocation API: Click to see your location on Google Maps</h1>
+	</header>
+
+	<nav>
+		<ul>
+		  <li><a href="http://www.stud.hig.no/~130533/">Home</a></li>
+		  <li><a href="http://www.stud.hig.no/~130533/about.html">About</a></li>
+		  <li><a href="http://www.stud.hig.no/~130533/contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<!-- table for user input and feedback -->
+		<table>
+			<tr><td>		
+				<!-- Link for displaying location, if the user accepts -->
+				Select Zoom level <select id="zoomLevel" class="zoomLevel"></select>  
+				and click <a href="#" onclick="findMyLocation()">here</a> to see your location on the map.
+			</td></tr>
+			<tr><td>
+				<!-- textarea for displaying error messages and other information. -->
+				<textarea class="resultMsg" id="resultMsg" readonly rows="7" cols="100" ></textarea>
+			</td></tr>
+		</table>
+	</section>
+	<!--section for map only -->
+	<section id="map_canvas" />
+	</body>
+</html>
